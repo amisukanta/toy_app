@@ -1,3 +1,8 @@
 # This is toy application for practice
 
-Used Harlt's tutorial thorought the app with Rails version 4.2 beta
+with Rails version 4.2 beta4
+sqlite3 in dev
+postgresql in prod
+Minitest
+
+https://sukanta-toy.herokuapp.com/
