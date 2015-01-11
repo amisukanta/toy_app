@@ -1,0 +1,7 @@
+<h1>Account Activation for Toy app</h1>
+<h3>Hi <%= @user.name %></h3>
+
+<p>
+  Please click the link below to activate your account for Toy app.    
+  <%= link_to "Activate", edit_account_activation_url(@user.activation_token, email: @user.email) %>
+</p>
