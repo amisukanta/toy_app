@@ -40,5 +40,12 @@ class UsersControllerTest < ActionController::TestCase
     assert_not flash.empty?
     assert_redirected_to login_url
   end
-  
+  test "should redirect following when not looged in" do
+    get :following, id: @user.id
+    assert_redirected_to login_url
+  end
+  test "should redirect followers when not looged in" do
+    get :followers, id: @user.id
+    assert_redirected_to login_url
+  end
 end

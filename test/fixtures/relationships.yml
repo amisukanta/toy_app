@@ -1,0 +1,12 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+one:
+  follower: sukanta
+  followed: amrite
+
+two:
+  follower: amrita
+  followed: sukanta
+
+three:
+  follower: sukanta
+  followed: lana
